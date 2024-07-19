@@ -16,10 +16,16 @@ const AdicionaIngrediente = (ingredient) => {
     selectedIngredients.value.splice(index, 1);
     }
 };
+
+const buscarReceitas = () => {
+    const ingredientes = selectedIngredients.value.join(', ');
+    const query = `receitas com esses ingredientes: ${ingredientes}`;
+    const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+    window.location.href = url;
+};
 </script>
 
 <template>
-
     <Header />
     
     <section class="py-5 main-content">
@@ -44,7 +50,7 @@ const AdicionaIngrediente = (ingredient) => {
                 </div>
             </div>
             <p>*Atenção: consideramos que vc tem em casa sal, pimenta e água.</p>
-            <button class="button mx-auto d-block" type="button"> Buscar Receitas!</button>
+            <button class="button mx-auto d-block" type="button" @click="buscarReceitas">Buscar Receitas!</button>
         </div>
     </section>
 
@@ -122,5 +128,4 @@ h4{
     padding: 7px 50px;
     margin-top: 80px;
 }
-
 </style>
