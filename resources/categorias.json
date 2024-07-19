@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Laticínios e Ovos",
+        "icon": "https://cdn-icons-png.flaticon.com/128/2137/2137681.png",
+        "ingredients": ["Ovos", "Leite", "Manteiga", "Creme de leite", "Iogurte", "Leite Condensado"]
+    },
+    {
+        "name": "Farinhas e Fermentos",
+        "icon": "https://cdn-icons-png.flaticon.com/128/2098/2098457.png",
+        "ingredients": ["Canjica", "Fermento", "Polvilho", "Linhaça", "Farinha de trigo", "Farinha de mandioca", "Fubá"]
+    },
+    {
+        "name": "Temperos e Especiarias",
+        "icon": "https://cdn-icons-png.flaticon.com/128/5862/5862835.png",
+        "ingredients": ["Canela", "Cravo", "Orégano", "Noz moscada", "Tomilho", "Pimenta do Reino", "Cominho"]
+    },
+    {
+        "name": "Óleos, Gorduras e Acetos",
+        "icon": "https://cdn-icons-png.flaticon.com/128/99/99952.png",
+        "ingredients": ["Vinagre", "Óleo", "Dendê", "Azeite de Oliva", "Banha", "Aceto Balsâmico"]
+    },
+    {
+        "name": "Hortaliças e Verduras",
+        "icon": "https://cdn-icons-png.flaticon.com/128/2329/2329903.png",
+        "ingredients": ["Cebola", "Alho", "Tomate", "Abóbora", "Abobrinha", "Batata", "Pimentão", "Cenoura"]
+    },
+    {
+        "name": "Açúcares e Adoçantes",
+        "icon": "https://cdn-icons-png.flaticon.com/128/5836/5836986.png",
+        "ingredients": ["Açúcar Branco", "Stevia", "Mel", "Melado", "Açúcar Mascavo", "Baunilha", "Xilitol", "Glicose"]
+    },
+    {
+        "name": "Proteínas Animais",
+        "icon": "https://cdn-icons-png.flaticon.com/128/9340/9340812.png",
+        "ingredients": ["Carne Bovina", "Carne Suína", "Frango", "Bacon", "Presunto", "Calabresa", "Peixe", "Miúdos"]
+    },
+    {
+        "name": "Grãos e Cereais",
+        "icon": "https://cdn-icons-png.flaticon.com/128/2829/2829956.png",
+        "ingredients": ["Arroz", "Feijão", "Lentilha", "Grão-de-Bico", "Quinoa", "Milho", "Ervilha"]
+    },
+    {
+        "name": "Frutas Frescas",
+        "icon": "https://cdn-icons-png.flaticon.com/128/10981/10981617.png",
+        "ingredients": ["Banana", "Maçã", "Uva", "Pêra", "Morango", "Laranja", "Abacaxi", "Coco"]
+    },
+    {
+        "name": "Frutas Secas",
+        "icon": "https://cdn-icons-png.flaticon.com/128/8080/8080628.png",
+        "ingredients": ["Castanhas", "Damasco", "Castanha do Pará", "Pistache", "Nozes", "Pinoli", "Amendoim"]
+    },
+    {
+        "name": "Pães e Massas",
+        "icon": "https://cdn-icons-png.flaticon.com/128/2862/2862159.png",
+        "ingredients": ["Pão", "Pão Sírio", "Tortilha", "Macarrão", "Nhoque", "Lasanha", "Broa", "Pastel"]
+    },
+    {
+        "name": "Doces e Guloseimas",
+        "icon": "https://cdn-icons-png.flaticon.com/128/2066/2066208.png",
+        "ingredients": ["Doce de Leite", "Chocolate", "Chantilly", "Geleia", "Goiabada", "Caramelo", "Gelatina"]
+    }
+]  
