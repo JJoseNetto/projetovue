@@ -18,10 +18,15 @@ const AdicionaIngrediente = (ingredient) => {
 };
 
 const buscarReceitas = () => {
+    if (selectedIngredients.value.length === 0) {
+        alert('Por favor, selecione pelo menos um ingrediente.');
+        return;
+    } else {
     const ingredientes = selectedIngredients.value.join(', ');
     const query = `receitas com esses ingredientes: ${ingredientes}`;
     const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
     window.location.href = url;
+    }
 };
 </script>
 
